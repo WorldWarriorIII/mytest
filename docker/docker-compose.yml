@@ -1,5 +1,5 @@
 version: '3.1'
-service:
+services:
   mytest:
     build:
       context: ./
@@ -7,5 +7,5 @@ service:
     image: mytest:v1.0.0
     container_name: mytest
     ports:
-      - 8080:8080
+      - 8081:8080
 
